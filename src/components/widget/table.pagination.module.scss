@@ -1,0 +1,12 @@
+table.table {
+    @apply border-collapse table-auto w-full text-sm text-left;
+    th {
+        @apply bg-green-300 border-b p-2 font-bold tracking-wider uppercase;
+    }
+    tbody > tr {
+        @apply border-b border-gray-300;
+        td {
+            @apply p-2;
+        }
+    }
+}
